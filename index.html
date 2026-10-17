@@ -1,0 +1,61 @@
+<!DOCTYPE html><html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحتي التجريبية</title><style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f5f0f5;
+        color: #333;
+        text-align: center;
+        padding: 50px 20px;
+    }
+
+    .card {
+        max-width: 500px;
+        margin: 40px auto;
+        padding: 30px;
+        background-color: white;
+        border-radius: 15px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+        color: #9E6899;
+    }
+
+    button {
+        background-color: #9E6899;
+        color: white;
+        border: none;
+        padding: 12px 24px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    #message {
+        margin-top: 20px;
+    }
+</style>
+
+</head><body>
+    <div class="card">
+        <h1>مرحبًا بك! 👋</h1>    <p>هذه أول صفحة ويب تجريبية لي.</p>
+
+    <p>أنا أتعلم كيف تعمل مواقع الويب وكيف تُعرض الصفحات عبر الإنترنت.</p>
+
+    <button onclick="showMessage()">اضغطي هنا</button>
+
+    <p id="message"></p>
+</div>
+
+<script>
+    function showMessage() {
+        document.getElementById("message").textContent =
+            "ممتاز! JavaScript تعمل بنجاح 🎉";
+    }
+</script>
+
+</body>
+</html>
